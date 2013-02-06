@@ -1,0 +1,8 @@
+Change-Id: I01f68f5b182ab65905ab557cd192a53454f1d76a
+Code-Review+2: Ricardo Cerqueira <cyanogenmod@cerqueira.org>
+Verified+1: Ricardo Cerqueira <cyanogenmod@cerqueira.org>
+Submitted-by: Ricardo Cerqueira <cyanogenmod@cerqueira.org>
+Submitted-at: Tue, 05 Feb 2013 16:01:35 -0800
+Reviewed-on: http://review.cyanogenmod.org/31105
+Project: CyanogenMod/lge-kernel-iproj
+Branch: refs/heads/android-msm-3.0-jb
