@@ -480,7 +480,6 @@ fail_4:
 fail_3:
 	gpio_free(context->pdata->gpio_hen);
 fail_2:
-	mutex_destroy(&context->mutex);
 	i2c_set_clientdata(client, NULL);
 	kfree(context);
 fail_1:
@@ -505,7 +504,6 @@ static int __devexit lge_isa1200_remove(struct i2c_client *client)
 
 	gpio_free(context->pdata->gpio_hen);
 
-	mutex_destroy(&context->mutex);
 	i2c_set_clientdata(client, NULL);
 	kfree(context);
 
