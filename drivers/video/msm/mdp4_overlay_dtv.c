@@ -1083,7 +1083,6 @@ void mdp4_dtv_overlay(struct msm_fb_data_type *mfd)
 	if (hdmi_prim_display && (pipe->pipe_used == 0 ||
 			pipe->mixer_stage != MDP4_MIXER_STAGE_BASE)) {
 		pr_err("%s: NOT baselayer\n", __func__);
-		mutex_unlock(&mfd->dma->ov_mutex);
 		return;
 	}
 
