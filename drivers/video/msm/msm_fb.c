@@ -1761,6 +1761,7 @@ void msm_fb_wait_for_fence(struct msm_fb_data_type *mfd)
 		}
 	}
 	if (ret < 0) {
+		i++; /* skip failing fd */
 		while (i < mfd->acq_fen_cnt) {
 			sync_fence_put(mfd->acq_fen[i]);
 			i++;
